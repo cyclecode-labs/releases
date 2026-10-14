@@ -1,0 +1,89 @@
+CycleCode Base Edition License
+Version 1.0 - 14 October 2026
+Copyright (c) 2026 Rudenia Vitali. All rights reserved in proprietary components.
+
+1. LICENSOR AND CONTACT
+The licensor is Rudenia Vitali, acting personally. License questions and requests
+for redistribution permission may be submitted at:
+https://github.com/vitaly-rudenya/cyclecode-releases/issues
+Do not include credentials, personal documents or confidential project content
+in public issues.
+
+2. FREE BASE-EDITION LICENSE
+Subject to these terms, you receive a non-exclusive license to download,
+install, make necessary installation/backup copies of, and use the official
+CycleCode base edition without a license fee for personal and commercial work.
+You may allow personnel acting for your organization to use official copies
+under these terms. Separate paid capabilities require separate terms. Provider,
+API, hosting and other third-party charges are not included in this grant.
+No access to the proprietary application's source repository is promised.
+
+3. DISTRIBUTION AND PROPRIETARY RIGHTS
+You may share links to official downloads. Republishing installers, operating
+download mirrors, selling copies or bundling proprietary CycleCode components
+with another distribution requires the licensor's separate permission, except
+where applicable law grants rights that cannot be restricted by this agreement.
+You may not remove proprietary notices, modify proprietary components or create
+derivative distributions without permission, except as permitted by applicable
+law. Restrictions on decompilation, reverse engineering or inspection apply only
+to the extent permitted by law and do not limit mandatory interoperability,
+backup, observation or other statutory rights.
+Rights not expressly granted in proprietary components remain reserved.
+
+4. THIRD-PARTY SOFTWARE
+This agreement governs only the licensor's proprietary components. Bundled
+third-party components are governed by their own licenses, provided in the
+distribution's legal notices and runtime legal directory. Their permissions,
+source-access rights and mandatory obligations prevail for those components.
+This agreement does not restrict copying, modification or redistribution rights
+granted by their separate licenses. It does not grant permission to redistribute
+third-party components where their licenses do not permit it.
+
+5. USER CONTENT AND GENERATED RESULTS
+You retain your rights in your projects, documents and other materials. This
+agreement grants the licensor no ownership of them. AI-generated results may be
+incorrect or subject to third-party rights and provider terms. No guarantee of
+copyrightability, exclusivity, non-infringement or fitness of generated results
+is made. Review generated code and proposed operations before relying on them.
+
+6. PROVIDERS, UPDATES AND PRIVACY
+Provider connections and local agent execution can send selected information to
+configured third-party providers according to your configuration and actions.
+Their terms and privacy policies apply. Local-first does not mean that provider
+requests stay on your computer. See the application's privacy/network controls.
+Preview updates are manually downloaded and installed. Future automatic update
+features, if provided, must be described by the released application; these terms
+do not assert that such features currently exist. Public GitHub downloads/issues
+are subject to GitHub's terms and ordinary request metadata processing.
+
+7. WARRANTY AND LIABILITY
+To the maximum extent permitted by applicable law, the software is provided
+"as is" and "as available", without voluntary warranties of merchantability,
+fitness for a particular purpose, uninterrupted operation or non-infringement.
+To the extent permitted by applicable law, the licensor is not liable for
+indirect or consequential losses, loss of profits or loss of data arising from
+use of or inability to use the software. Maintain backups and review operations.
+These clauses do not exclude liability or remedies that cannot lawfully be
+excluded, including applicable consumer protections, fraud or intentional harm.
+No restriction in this agreement overrides mandatory law.
+
+8. TERMINATION AND CHANGES
+You may stop using and uninstall the software at any time. The licensor may
+terminate your license for a material breach by giving notice and, where the
+breach is capable of cure, 30 days to remedy it. On valid termination stop using
+and remove proprietary copies, except records/copies required or permitted by
+law. Ownership and applicable third-party rights are unaffected.
+Revised terms for future versions must be presented with those versions. They
+do not retroactively impose fees or remove the free-use grant for a version
+already obtained under these terms. No obligation of perpetual support or new
+feature delivery is created. Disputes are subject to applicable law and competent
+courts; this agreement imposes no exclusive foreign forum or mandatory arbitration.
+
+9. PREVIEW DISTRIBUTIONS
+If a version is marked preview, experimental or UNSIGNED_DEVELOPMENT_BUILD,
+the accompanying PREVIEW-TERMS.txt also applies. If it conflicts with mandatory
+law or a third-party license, that law or license prevails. If a clause is
+unenforceable, remaining lawful clauses continue to apply.
+
+Installing or using proprietary CycleCode components signifies acceptance of
+these terms. If you do not agree, do not install or use those components.

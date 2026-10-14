@@ -1,0 +1,17 @@
+CycleCode Third-Party Legal Evidence
+
+Proprietary application terms: LICENSE.txt and PREVIEW-TERMS.txt.
+Third-party components retain their original licenses and copyrights.
+See electron/, java-runtime/, ui/, java-dependencies/ and java-sidecar-embedded/.
+inventory.json identifies collected evidence and unresolved coverage.
+
+STATUS: EVIDENCE COLLECTED; NOT A COMPLETE LICENSE CLEARANCE.
+Do not publish based solely on this generated inventory. Resolve open_items and
+check the exact final package. No blanket proprietary license applies to the
+third-party components. Re-run after any input/version/runtime change.
+
+In this repository, the directories above are inside THIRD-PARTY-LICENSE-EVIDENCE.zip.
+Current staged runtime: OpenJDK 25+36-3489, Oracle Corporation, GPLv2 with
+Classpath Exception. This is not a Temurin build and no NFTC runtime is
+represented by this refreshed archive. See java-runtime/provenance.json.
+Complete corresponding-source obligations remain to be verified.

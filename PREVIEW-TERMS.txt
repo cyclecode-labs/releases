@@ -3,7 +3,7 @@ Version 1.0 - 14 October 2026
 
 These terms supplement LICENSE.txt for the free preview edition.
 Rights holder: Rudenia Vitali.
-Contact: https://github.com/vitaly-rudenya/cyclecode-releases/issues
+Contact: https://github.com/cyclecode-labs/releases/issues
 
 - Preview builds are experimental and may fail, change or produce incorrect
   results. Personal and commercial use is permitted under LICENSE.txt, but no

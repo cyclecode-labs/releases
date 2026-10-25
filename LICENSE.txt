@@ -5,7 +5,7 @@ Copyright (c) 2026 Rudenia Vitali. All rights reserved in proprietary components
 1. LICENSOR AND CONTACT
 The licensor is Rudenia Vitali, acting personally. License questions and requests
 for redistribution permission may be submitted at:
-https://github.com/vitaly-rudenya/cyclecode-releases/issues
+https://github.com/cyclecode-labs/releases/issues
 Do not include credentials, personal documents or confidential project content
 in public issues.
 

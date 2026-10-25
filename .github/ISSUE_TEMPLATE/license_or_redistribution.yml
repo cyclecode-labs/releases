@@ -1,0 +1,28 @@
+name: License, Source Offer, or Redistribution Inquiry
+description: Ask a licensing question, request redistribution permission, or request OpenJDK Corresponding Source
+title: "[Licensing]: "
+labels: ["licensing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template for questions regarding `LICENSE.txt`, `PREVIEW-TERMS.txt`, redistribution permission, or OpenJDK GPLv2+CE Corresponding Source requests (`java-runtime/SOURCE-OFFER.txt`).
+        Do **not** include personal credentials or confidential project content.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Inquiry Type
+      options:
+        - General Licensing Question
+        - Installer Redistribution Permission Request
+        - OpenJDK Runtime Corresponding Source Request (GPLv2+CE)
+        - Third-Party Notice Inquiry
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe your request and the specific release version (if applicable).
+    validations:
+      required: true

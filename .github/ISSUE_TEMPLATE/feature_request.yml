@@ -1,0 +1,23 @@
+name: Feature or Improvement Request
+description: Suggest an enhancement or workflow improvement for CycleCode
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Security & Privacy Notice:** Do **not** include API keys, tokens, credentials, or confidential project content in public issues.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or Use Case
+      description: What workflow or problem are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: How would you like CycleCode to work in this scenario?
+    validations:
+      required: true

@@ -1,0 +1,50 @@
+name: Bug Report
+description: Report a bug or unexpected behavior in CycleCode
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Security & Privacy Notice:** Do **not** include API keys, tokens, credentials, confidential project content, or unredacted logs in public issues.
+  - type: input
+    id: version
+    attributes:
+      label: CycleCode Version
+      description: What version or build of CycleCode are you running?
+      placeholder: e.g. 0.1.0-preview.1
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: Operating System
+      description: Windows / macOS version and architecture
+      placeholder: e.g. Windows 11 24H2 x64
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Clear steps to reproduce the issue
+      placeholder: |
+        1. Open project...
+        2. Click on...
+        3. Observe error...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior & Diagnostics
+      description: What actually happened? Include redacted error messages if applicable.
+    validations:
+      required: true

@@ -6,7 +6,7 @@ CycleCode is a local-first desktop workspace for developers and small teams who 
 
 This is the official release and feedback repository. Application source code is maintained privately.
 
-> **Status: Pre-release preparation.** Check [Releases](https://github.com/vitaly-rudenya/cyclecode-releases/releases) for available builds and their supported features, requirements, and known limitations. Production release qualification is still in progress.
+> **Status: Pre-release preparation.** Check [Releases](https://github.com/cyclecode-labs/releases/releases) for available builds and their supported features, requirements, and known limitations. Production release qualification is still in progress.
 
 ## What CycleCode Is Designed To Do
 
@@ -30,7 +30,7 @@ Local-first means project state and artifacts are stored on your machine. Using 
 
 When a Windows preview is available:
 
-1. Open [Releases](https://github.com/vitaly-rudenya/cyclecode-releases/releases) and read the build's requirements and known limitations.
+1. Open [Releases](https://github.com/cyclecode-labs/releases/releases) and read the build's requirements and known limitations.
 2. Download its Windows x64 setup executable from the official release assets. Compare its SHA-256 checksum with the published value when provided.
 3. Run the installer and launch CycleCode, then configure your AI provider.
 
@@ -40,13 +40,13 @@ Portable packages, if offered, have separate instructions in their release notes
 
 ## Updates
 
-Preview updates are manual: download the newer package from [Releases](https://github.com/vitaly-rudenya/cyclecode-releases/releases) and follow its upgrade instructions. Back up your profile and projects first; a newer version may change data in ways older versions cannot read.
+Preview updates are manual: download the newer package from [Releases](https://github.com/cyclecode-labs/releases/releases) and follow its upgrade instructions. Back up your profile and projects first; a newer version may change data in ways older versions cannot read.
 
 In-app updates are planned. Until a release explicitly documents their availability, use manual updates.
 
 ## Feedback And Support
 
-Use [GitHub Issues](https://github.com/vitaly-rudenya/cyclecode-releases/issues) to report bugs, suggest improvements, ask license questions, or request redistribution permission. For bugs, include the application version, operating system, steps to reproduce, and expected and actual behavior.
+Use [GitHub Issues](https://github.com/cyclecode-labs/releases/issues) to report bugs, suggest improvements, ask license questions, or request redistribution permission. For bugs, include the application version, operating system, steps to reproduce, and expected and actual behavior.
 
 Do not post API keys, tokens, credentials, confidential project content, or unredacted logs in public issues.
 
@@ -56,10 +56,6 @@ Copyright © 2026 Rudenia Vitali. All rights reserved in proprietary components.
 
 - [LICENSE.txt](LICENSE.txt): proprietary base-edition terms, including free personal and commercial use. Paid capabilities have separate terms.
 - [PREVIEW-TERMS.txt](PREVIEW-TERMS.txt): additional terms for experimental builds and manual updates.
-- [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt): collected dependency license evidence and its current coverage status. Third-party components retain their own licenses and rights.
+- [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) and [THIRD-PARTY-LICENSE-EVIDENCE.zip](THIRD-PARTY-LICENSE-EVIDENCE.zip): third-party component notices, collected license texts, and OpenJDK GPLv2 with Classpath Exception source-access provenance. Third-party components retain their own licenses and rights.
 
 Sharing official download links is welcome. Republishing installers requires separate permission, subject to applicable law and third-party licenses.
-
-## For Maintainers
-
-Publication requirements are tracked in [RELEASE-CHECKLIST.md](RELEASE-CHECKLIST.md). [LICENSE-REVIEW.md](LICENSE-REVIEW.md) records unresolved runtime source-compliance and dependency-notice checks that must be completed before binary publication.

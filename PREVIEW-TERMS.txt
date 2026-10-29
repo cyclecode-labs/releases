@@ -1,11 +1,12 @@
 CycleCode Preview Distribution Terms
-Version 1.0 - 14 October 2026
+Version 1.1 - 29 October 2026
 
 These terms supplement LICENSE.txt for the free preview edition.
 Rights holder: Rudenia Vitali.
 Contact: https://github.com/cyclecode-labs/releases/issues
 
-- Preview builds are experimental and may fail, change or produce incorrect
+- Preview builds are experimental and provided "as is" and "as available",
+  to the maximum extent permitted by applicable law. They may fail, change or produce incorrect
   results. Personal and commercial use is permitted under LICENSE.txt, but no
   production-readiness or suitability promise is made.
 - Current preview builds are not Authenticode-signed. Windows may report an
@@ -19,6 +20,10 @@ Contact: https://github.com/cyclecode-labs/releases/issues
   build to protect against all erroneous or destructive operations.
 - Model/API and other provider charges are separate. You are responsible for
   using provider accounts and third-party software in accordance with their terms.
+- To the maximum extent permitted by applicable law, the licensor is not liable
+  for consequences attributable to third-party software, services or acts or
+  omissions of third parties. LICENSE.txt section 7 and its mandatory-law
+  safeguards apply.
 - Sharing official links is allowed. Republishing installers requires separate
   permission, subject to mandatory law and separate third-party licenses.
 - Mandatory statutory rights and LICENSE.txt's lawful-liability safeguards remain

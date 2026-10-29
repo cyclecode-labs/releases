@@ -1,5 +1,5 @@
 CycleCode Base Edition License
-Version 1.0 - 14 October 2026
+Version 1.1 - 29 October 2026
 Copyright (c) 2026 Rudenia Vitali. All rights reserved in proprietary components.
 
 1. LICENSOR AND CONTACT
@@ -57,12 +57,21 @@ do not assert that such features currently exist. Public GitHub downloads/issues
 are subject to GitHub's terms and ordinary request metadata processing.
 
 7. WARRANTY AND LIABILITY
+CycleCode is an experimental product. Do not assume production readiness or
+suitability for critical operations.
 To the maximum extent permitted by applicable law, the software is provided
 "as is" and "as available", without voluntary warranties of merchantability,
 fitness for a particular purpose, uninterrupted operation or non-infringement.
 To the extent permitted by applicable law, the licensor is not liable for
-indirect or consequential losses, loss of profits or loss of data arising from
-use of or inability to use the software. Maintain backups and review operations.
+direct, indirect, incidental or consequential damage or loss, including loss of
+profits, loss of data and recovery costs, arising from use of or inability to use
+the software. Maintain backups and review operations.
+To the maximum extent permitted by applicable law, the licensor is not liable
+for consequences attributable to third-party software or services (including AI
+providers, external agents, tools and integrations), or acts or omissions of
+third parties, including their errors, outages, unauthorized actions and charges.
+This does not exclude responsibility for the licensor's own acts or omissions
+where that responsibility cannot lawfully be excluded.
 These clauses do not exclude liability or remedies that cannot lawfully be
 excluded, including applicable consumer protections, fraud or intentional harm.
 No restriction in this agreement overrides mandatory law.

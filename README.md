@@ -15,7 +15,7 @@ This is the official release and feedback repository. Application source code is
 - **Keep delivery reviewable.** Use explicit approval gates, bounded code changes, and inspectable validation results.
 - **Start from an existing repository.** Build an understanding of the codebase and a backlog before choosing scoped changes.
 
-The intended path is **idea → requirements → prototype → architecture → plan → implementation → validation → delivery**. The capabilities above describe the product direction; individual preview releases may support only part of this workflow.
+The intended path is **idea в†’ requirements в†’ prototype в†’ architecture в†’ plan в†’ implementation в†’ validation в†’ delivery**. The capabilities above describe the product direction; individual preview releases may support only part of this workflow.
 
 ## Before You Start
 
@@ -32,11 +32,11 @@ When a Windows preview is available:
 
 1. Open [Releases](https://github.com/cyclecode-labs/releases/releases) and read the build's requirements and known limitations.
 2. Download its Windows x64 setup executable from the official release assets. Compare its SHA-256 checksum with the published value when provided.
-3. Run the installer and launch CycleCode, then configure your AI provider.
+3. Run the installer and launch CycleCode. Read and explicitly accept the bundled license and preview terms before using the application, then configure your AI provider.
 
 Unsigned experimental builds are labeled accordingly. Windows may show an unknown-publisher or SmartScreen warning. A checksum checks file integrity; it does not verify the publisher. Review the release information before deciding whether to run an unsigned build.
 
-Portable packages, if offered, have separate instructions in their release notes.
+Portable packages, if offered, have separate instructions in their release notes. Packaged applications also show the full terms on first launch and request acceptance again when the bundled terms change. Declining closes the application before its backend starts.
 
 ## Updates
 
@@ -52,7 +52,7 @@ Do not post API keys, tokens, credentials, confidential project content, or unre
 
 ## License And Third-Party Software
 
-Copyright © 2026 Rudenia Vitali. All rights reserved in proprietary components.
+Copyright В© 2026 Rudenia Vitali. All rights reserved in proprietary components.
 
 - [LICENSE.txt](LICENSE.txt): proprietary base-edition terms, including free personal and commercial use. Paid capabilities have separate terms.
 - [PREVIEW-TERMS.txt](PREVIEW-TERMS.txt): additional terms for experimental builds and manual updates.

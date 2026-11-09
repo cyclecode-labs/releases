@@ -6,7 +6,7 @@ CycleCode is a local-first desktop workspace for developers and small teams who 
 
 This is the official release and feedback repository. Application source code is maintained privately.
 
-> **Preview: 0.1.0-preview.5.** Read the [Release Notes](release-notes/0.1.0-preview.5.md) for changes since preview.4, upgrade instructions, and known limitations. Download application packages from [Releases](https://github.com/cyclecode-labs/releases/releases) when available. This is experimental software; production release qualification is still in progress.
+> **Preview: 0.1.0-preview.6.** Read the [Release Notes](release-notes/0.1.0-preview.6.md) for changes since preview.5, upgrade instructions, and known limitations. Download application packages from [Releases](https://github.com/cyclecode-labs/releases/releases) when available. This is experimental software; production release qualification is still in progress.
 
 ## Work In One Project Workspace
 
@@ -15,7 +15,7 @@ This is the official release and feedback repository. Application source code is
 - **Keep delivery reviewable.** Use explicit approval gates, bounded code changes, and inspectable validation results.
 - **Start from an existing repository.** Build an understanding of the codebase and a backlog before choosing scoped changes.
 
-Preview.5 adds editable task plans with dependency graphs, GitHub and Jira Cloud task intake, chat attachments, Markdown/HTML export, and local backup and recovery. Work Items bring together implementation, diff review, validation, and the accepted Git result. Runs shows agent progress and failure diagnostics. See the [Release Notes](release-notes/0.1.0-preview.5.md) for feature boundaries.
+Preview.6 adds a connected Plan overview with story coverage, editable project run profiles and app-bar Run/Test controls, guided repair for failed application runs, per-project agent choices, and document authoring in role chats. Work Items bring together implementation, diff review, validation, and the accepted Git result. See the [Release Notes](release-notes/0.1.0-preview.6.md) for feature boundaries and upgrade instructions.
 
 The intended path is **idea → requirements → prototype → architecture → plan → implementation → validation → delivery**. Approval gates keep product decisions and code changes reviewable. Preview capabilities have individual limitations; the complete workflow is still being qualified.
 
@@ -53,7 +53,9 @@ Connect GitHub.com or Jira Cloud in **Settings → Integrations** to preview ass
 
 Preview updates are manual: download the newer package from [Releases](https://github.com/cyclecode-labs/releases/releases) and follow its upgrade instructions. Back up your profile and projects first; a newer version may change data in ways older versions cannot read.
 
-Preview.5 adds update discovery: **Settings → Updates** lets you check for releases, choose a channel, and control scheduled checks. A green icon beside the application logo opens a newer release in your browser. Download and installation remain manual; an announcement can appear before an installer is attached.
+**Settings → Updates** lets you check for releases, choose a channel, and control scheduled checks. Preview.6 enables automatic checks by default in all builds while preserving saved preferences. A green icon beside the application logo opens a newer release in your browser. Download and installation remain manual; an announcement can appear before an installer is attached.
+
+When upgrading from preview.5, existing Project Baseline documents do not migrate into run profiles. Ask the Architect to propose profiles again, then approve them in chat or under **Project Settings → Run profiles**. Use **Update task** if an older prepared task package reports missing or outdated project test checks.
 
 ## Local Data And Backups
 

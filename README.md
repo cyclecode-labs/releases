@@ -1,82 +1,49 @@
 # CycleCode
 
-**Turn a product idea into a reviewable software delivery workflow.**
+**Turn an idea into a software project you can understand, check, and review.**
 
-CycleCode is a local-first desktop workspace for developers and small teams who want to define a product, coordinate specialized AI agents, and review implementation and validation in one place.
+CycleCode is a local-first desktop workspace for developers and small teams building with AI agents. Define what to build, agree on the design, then review scoped code changes and their validation results in one project workspace.
 
 This is the official release and feedback repository. Application source code is maintained privately.
 
-> **Preview: 0.1.0-preview.6.** Read the [Release Notes](release-notes/0.1.0-preview.6.md) for changes since preview.5, upgrade instructions, and known limitations. Download application packages from [Releases](https://github.com/cyclecode-labs/releases/releases) when available. This is experimental software; production release qualification is still in progress.
+**Current preview: 0.1.0-preview.6.** [Download CycleCode](https://github.com/cyclecode-labs/releases/releases) · [Release notes](release-notes/0.1.0-preview.6.md) · [First project walkthrough](GETTING-STARTED.md)
 
-## Work In One Project Workspace
+Experimental preview; the complete workflow is still being qualified. Check the release's attached application assets for platform availability. Windows builds may be unsigned; read the [installation notes](INSTALL.md) before running them.
 
-- **Define the product before coding.** Develop an idea into requirements, a clickable prototype, architecture, and an implementation plan.
-- **Coordinate specialized AI agents.** Keep product analysis, design, implementation, and validation connected through shared project artifacts.
-- **Keep delivery reviewable.** Use explicit approval gates, bounded code changes, and inspectable validation results.
-- **Start from an existing repository.** Build an understanding of the codebase and a backlog before choosing scoped changes.
+## From Idea To Reviewed Change
 
-Preview.6 adds a connected Plan overview with story coverage, editable project run profiles and app-bar Run/Test controls, guided repair for failed application runs, per-project agent choices, and document authoring in role chats. Work Items bring together implementation, diff review, validation, and the accepted Git result. See the [Release Notes](release-notes/0.1.0-preview.6.md) for feature boundaries and upgrade instructions.
+![Workflow overview: define an idea, agree on product artifacts, plan a bounded task, implement in a worktree, and review validation before accepting the Git result.](assets/workflow.svg)
 
-The intended path is **idea → requirements → prototype → architecture → plan → implementation → validation → delivery**. Approval gates keep product decisions and code changes reviewable. Preview capabilities have individual limitations; the complete workflow is still being qualified.
+*Workflow illustration, not an application screenshot or evidence of a completed run.*
 
-## Before You Start
+For example, start with “a shared checklist for a small team.” Clarify the users and requirements, review a prototype and Architecture, then choose one Work Item with explicit acceptance criteria. Review its diff and recorded checks before accepting the result. The [walkthrough](GETTING-STARTED.md) explains the steps and where approval is needed.
 
-- The Windows installation path below targets **Windows x64**. Check the selected release for exact system requirements and available packages.
-- The desktop package is designed to include its required Java runtime, so a separate Java installation is not required for the application itself.
-- Install Git separately for repository operations. Project builds also need the tools required by that project, such as Node.js/npm or a JDK/Maven; the bundled application runtime does not replace them.
-- Configure your chosen AI provider before using AI features. Provider accounts, credentials, network access, and any local model setup depend on that provider. Coding-agent integrations may also require separately installed tools and authentication.
-- The base edition is free for personal and commercial use. Model/API, hosting, and other third-party charges are separate.
+## Why Use CycleCode?
 
-Local-first means project state and artifacts are stored on your machine. Using an external AI provider can send project context to that provider; review your configuration before working with confidential material.
+- **Keep the reason for a change connected to the code.** Product artifacts, Stories, Acceptance Criteria and Work Items carry the context across specialized roles. Plan coverage makes gaps visible.
+- **Review bounded changes.** Explicit approval gates and Git worktrees let you inspect the proposed scope and resulting diff before accepting a candidate.
+- **Check results against the project.** Versioned Run Profiles define project commands; approved project test profiles become mandatory checks for newly prepared development and repair candidates. A manual Run/Test result is separate from Work Item acceptance evidence.
 
-## Windows Installation
+Start with an idea, or bring an existing repository for analysis and backlog preparation before authorizing scoped changes. Preview.6 also includes guided repair for eligible startup failures, per-project agent choices, and document authoring in role chats. See the [release notes](release-notes/0.1.0-preview.6.md) for boundaries and qualification limits. GitHub/Jira task intake reads remote tasks; it does not update remote issues.
 
-1. Open [Releases](https://github.com/cyclecode-labs/releases/releases) and read the build's requirements and known limitations.
-2. Download its Windows x64 setup executable from the official release assets. Compare its SHA-256 checksum with the published value when provided.
-3. Run the installer and launch CycleCode. Read and explicitly accept the bundled license and preview terms before using the application, then configure your AI provider.
+## Get Started
 
-Unsigned experimental builds are labeled accordingly. Windows may show an unknown-publisher or SmartScreen warning. A checksum checks file integrity; it does not verify the publisher. Review the release information before deciding whether to run an unsigned build.
+1. [Install the application](INSTALL.md) from the official release assets. The desktop package includes its Java runtime. Install Git for repository operations and the build tools your project needs.
+2. In the setup wizard, add and check an AI connection, then assign it to roles. You can start with one checked connection; advanced role settings and external MCP servers can wait.
+3. From Home, choose **Create project**, enter a name and a short idea, then continue in Discovery. Aim first for a useful, saved product draft; implementation follows the applicable approval gates.
 
-Portable packages, if offered, have separate instructions in their release notes. Packaged applications also show the full terms on first launch and request acceptance again when the bundled terms change. Declining closes the application before its backend starts.
+Follow the [first project walkthrough](GETTING-STARTED.md) for an example idea, the path to a checked Work Item, and help with common setup blockers. Provider accounts, CLI tools/authentication and project build tools depend on your choices. Model/API and other third-party charges are separate.
 
-GitHub's automatically generated **Source code** archives contain this release repository, not an installable application. Use the application assets attached to the release.
+## Data, Updates And Terms
 
-## First Launch
+Project state and artifacts are stored locally. External AI providers can receive project context according to your configuration. [Data and backups](DATA-AND-PRIVACY.md) explains storage, backup contents and restore limits.
 
-After accepting the terms, use the setup wizard to configure provider connections, assign agents to roles, and review readiness. Provider accounts and coding-agent CLI authentication are configured for the services you choose. You can revisit configuration in Settings.
+Updates are installed manually. [Upgrade instructions](INSTALL.md#updates) cover backups, update checks and the preview.5 → preview.6 Run Profile change.
 
-Create a project from an idea or start repository onboarding. Work through the product artifacts and approval gates before preparing implementation tasks. For an existing repository, review the imported understanding and proposed work before authorizing changes.
+The base edition is free for personal and commercial use under [LICENSE.txt](LICENSE.txt). Paid capabilities have separate terms; this README does not announce a paid feature list or promise future pricing. Read the [preview terms](PREVIEW-TERMS.txt) and [third-party notices](THIRD-PARTY-NOTICES.txt), with [license evidence](THIRD-PARTY-LICENSE-EVIDENCE.zip). Sharing official download links is welcome; republishing installers requires separate permission, subject to applicable law and third-party licenses.
 
-Connect GitHub.com or Jira Cloud in **Settings → Integrations** to preview assigned tasks and adopt selected tasks into a project. This preview reads from those trackers; it does not update remote issues.
+## Feedback
 
-## Updates
-
-Preview updates are manual: download the newer package from [Releases](https://github.com/cyclecode-labs/releases/releases) and follow its upgrade instructions. Back up your profile and projects first; a newer version may change data in ways older versions cannot read.
-
-**Settings → Updates** lets you check for releases, choose a channel, and control scheduled checks. Preview.6 enables automatic checks by default in all builds while preserving saved preferences. A green icon beside the application logo opens a newer release in your browser. Download and installation remain manual; an announcement can appear before an installer is attached.
-
-When upgrading from preview.5, existing Project Baseline documents do not migrate into run profiles. Ask the Architect to propose profiles again, then approve them in chat or under **Project Settings → Run profiles**. Use **Update task** if an older prepared task package reports missing or outdated project test checks.
-
-## Local Data And Backups
-
-With the default Windows configuration, saved project data is in `%LOCALAPPDATA%\CycleCode\profile`, and desktop settings and protected credential storage are in `%APPDATA%\CycleCode`. Custom profile locations can differ.
-
-Use **Settings → Storage And Backup** to inspect profile disk usage, create a local backup, verify it, or restore it with confirmation and a restart. Backups contain the database and referenced managed content, including saved documents and chat attachments. They are unencrypted local folders and can contain sensitive project text.
-
-Back up source repositories separately. CycleCode backups exclude repository files, worktrees, credentials, and external coding-agent history. Restore currently targets the same configured profile location and compatible schema; it is not a profile migration to another machine. Markdown/HTML exports are readable snapshots and cannot restore a profile.
-
-## Feedback And Support
-
-Use [GitHub Issues](https://github.com/cyclecode-labs/releases/issues) to report bugs, suggest improvements, ask license questions, or request redistribution permission. For bugs, include the application version, operating system, steps to reproduce, and expected and actual behavior.
-
-Do not post API keys, tokens, credentials, confidential project content, or unredacted logs in public issues.
-
-## License And Third-Party Software
+[Report a bug or suggest an improvement](https://github.com/cyclecode-labs/releases/issues). Include your version, operating system, reproduction steps, and expected and actual behavior. Remove credentials and confidential project content from public screenshots and logs. License and redistribution questions can also be raised there.
 
 Copyright © 2026 Rudenia Vitali. All rights reserved in proprietary components.
-
-- [LICENSE.txt](LICENSE.txt): proprietary base-edition terms, including free personal and commercial use. Paid capabilities have separate terms.
-- [PREVIEW-TERMS.txt](PREVIEW-TERMS.txt): additional terms for experimental builds and manual updates.
-- [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt) and [THIRD-PARTY-LICENSE-EVIDENCE.zip](THIRD-PARTY-LICENSE-EVIDENCE.zip): third-party component notices, collected license texts, and OpenJDK GPLv2 with Classpath Exception source-access provenance. Third-party components retain their own licenses and rights.
-
-Sharing official download links is welcome. Republishing installers requires separate permission, subject to applicable law and third-party licenses.

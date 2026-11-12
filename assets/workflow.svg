@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="440" viewBox="0 0 1120 440" role="img" aria-labelledby="title description">
+  <title id="title">CycleCode: from idea to reviewed change</title>
+  <desc id="description">Workflow illustration. Define an idea; agree on Vision, PRD, prototype and Architecture; connect Stories, Acceptance Criteria and Work Items; implement in a bounded worktree; review diff and validation before accepting the Git result. Approval gates remain explicit.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7" fill="none" stroke="#8093ad" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="1120" height="440" rx="20" fill="#0c1424"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="32" y="44" fill="#80dacc" font-size="15" font-weight="700" letter-spacing="2">CYCLECODE / WORKFLOW</text>
+    <text x="32" y="83" fill="#f4f7fb" font-size="28" font-weight="700">One idea. Connected decisions. Reviewable changes.</text>
+    <g stroke="#8093ad" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M224 222 H245"/><path d="M440 222 H461"/><path d="M656 222 H677"/><path d="M872 222 H893"/>
+    </g>
+    <g fill="#142238" stroke="#31435e">
+      <rect x="32" y="122" width="192" height="208" rx="12"/>
+      <rect x="248" y="122" width="192" height="208" rx="12"/>
+      <rect x="464" y="122" width="192" height="208" rx="12"/>
+      <rect x="680" y="122" width="192" height="208" rx="12"/>
+      <rect x="896" y="122" width="192" height="208" rx="12"/>
+    </g>
+    <g fill="#80dacc" font-size="14" font-weight="700">
+      <text x="48" y="153">01 / DEFINE</text><text x="264" y="153">02 / AGREE</text><text x="480" y="153">03 / PLAN</text><text x="696" y="153">04 / IMPLEMENT</text><text x="912" y="153">05 / REVIEW</text>
+    </g>
+    <g fill="#f4f7fb" font-size="20" font-weight="600">
+      <text x="48" y="191">Start with an idea</text><text x="264" y="191">Product artifacts</text><text x="480" y="191">One bounded task</text><text x="696" y="191">Isolated changes</text><text x="912" y="191">Inspect the result</text>
+    </g>
+    <g fill="#c4cfdf" font-size="16">
+      <text x="48" y="229">Users and goals</text><text x="48" y="257">Main scenario</text><text x="48" y="285">Explicit constraints</text>
+      <text x="264" y="229">Vision and PRD</text><text x="264" y="257">Clickable prototype*</text><text x="264" y="285">Architecture</text>
+      <text x="480" y="229">Stories</text><text x="480" y="257">Acceptance Criteria</text><text x="480" y="285">Work Items</text>
+      <text x="696" y="229">Git worktree</text><text x="696" y="257">Approved scope</text><text x="696" y="285">Project test checks</text>
+      <text x="912" y="229">Diff and validation</text><text x="912" y="257">Acceptance Criteria</text><text x="912" y="285">Accepted Git result</text>
+    </g>
+    <path d="M32 354 H1088" stroke="#31435e"/>
+    <text x="32" y="383" fill="#80dacc" font-size="16" font-weight="600">Approval gates: PRD → Architecture → merge / deploy</text>
+    <text x="32" y="412" fill="#a8b8cd" font-size="14">* Where UI agreement is required. Workflow illustration; preview capabilities have individual qualification limits.</text>
+  </g>
+</svg>

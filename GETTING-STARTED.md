@@ -48,7 +48,7 @@ Prepare the selected Work Item using its agreed inputs, scope and acceptance cri
 
 When execution finishes, inspect the diff, recorded validation results and acceptance criteria. Address failures or uncovered behavior before accepting the candidate. Keep approval before merge/deploy explicit. Acceptance, local Git integration and external delivery are separate steps.
 
-Preview.6 reads GitHub/Jira tasks but does not update remote issues. Follow your repository's normal push, PR and delivery process for external publication. See the [release notes](release-notes/0.1.0-preview.6.md) for boundaries, including guided repair qualification.
+Preview.7 reads GitHub/Jira tasks but does not update remote issues. You can choose Manual or Semi-auto per Work Item; Semi-auto prepares stages up to development and stops at approval gates. Auto is unavailable, and the one-button project build is planned. Follow your repository's normal push, PR and delivery process for external publication. See the [release notes](release-notes/0.1.0-preview.7.md) for boundaries, including guided repair qualification.
 
 ## If You Get Stuck
 

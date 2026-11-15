@@ -31,6 +31,17 @@ Preview updates are manual:
 
 **Settings → Updates** lets you check for releases, choose a channel and control scheduled checks. Preview.6 enables automatic checks by default in all builds while preserving saved preferences. A green icon beside the application logo opens a newer release in your browser. Download and installation remain manual; an announcement can appear before an installer is attached.
 
+### Upgrading To Preview.7
+
+Back up and verify your profile before upgrading. Preview.6 is the supported upgrade source; preview.7 adopts its schema history and applies the new migrations while retaining project data. Keep the backup for rollback; do not reopen a migrated profile in preview.6.
+
+- **Preview.5 or older:** open the profile once with preview.6 first, or create a new profile. Preview.7 refuses direct upgrades from older schemas.
+- **Unreleased development builds with the old, unsquashed migration history beyond preview.6:** create a new profile. Intermediate preview.7 profiles with a migration checksum from before the final release squash also require a new profile. Do not manually rewrite schema history.
+- Review **Routing** after upgrading: web search and web-page tools are enabled for Discovery, Product Analyst, Project Manager and Architect, including existing built-in settings where supported.
+- Use **Update task** if a prepared task lacks the current mandatory checks, including the application-start check where applicable.
+
+See the [preview.7 release notes](release-notes/0.1.0-preview.7.md) for details and limitations.
+
 ### Upgrading From Preview.5 To Preview.6
 
 Existing Project Baseline documents do not migrate into Run Profiles. Ask the Architect to propose profiles again, then approve them in chat or under **Project Settings → Run profiles**.

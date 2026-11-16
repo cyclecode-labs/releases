@@ -6,6 +6,8 @@ CycleCode is a local-first desktop workspace for developers and small teams buil
 
 This is the official release and feedback repository. Application source code is maintained privately.
 
+[Tool overview](https://vedacarrier.com/en/tools/cyclecode) · [Project space and development log](https://vedacarrier.com/en/projects/cycle-code)
+
 **Current preview: 0.1.0-preview.7.** [Download CycleCode](https://github.com/cyclecode-labs/releases/releases) · [Release notes](release-notes/0.1.0-preview.7.md) · [First project walkthrough](GETTING-STARTED.md)
 
 Experimental preview; the complete workflow is still being qualified. Check the release's attached application assets for platform availability. Windows builds may be unsigned; read the [installation notes](INSTALL.md) before running them.
@@ -41,6 +43,11 @@ Project state and artifacts are stored locally. External AI providers can receiv
 Updates are installed manually. [Upgrade instructions](INSTALL.md#updates) cover backups, update checks and the preview.6 → preview.7 schema upgrade and earlier Run Profile changes.
 
 The base edition is free for personal and commercial use under [LICENSE.txt](LICENSE.txt). Paid capabilities have separate terms; this README does not announce a paid feature list or promise future pricing. Read the [preview terms](PREVIEW-TERMS.txt) and [third-party notices](THIRD-PARTY-NOTICES.txt), with [license evidence](THIRD-PARTY-LICENSE-EVIDENCE.zip). Sharing official download links is welcome; republishing installers requires separate permission, subject to applicable law and third-party licenses.
+
+## Engineering Notes
+
+- [Inside CycleCode 0.1.0-preview.7](https://vedacarrier.com/en/projects/cycle-code/inside-cyclecode-0-1-0-preview-7) — the JSON workflow engine, Semi-auto task preparation, and lessons from real agent failures.
+- [Why AI Coding Agents Need Modular Architecture, Scope Rules, and Start Checks](https://vedacarrier.com/en/knowledge/software-engineering/modular-architecture-and-scope-for-ai-agents) — explicit module dependencies, coupled file scopes, and application-start checks.
 
 ## Feedback
 

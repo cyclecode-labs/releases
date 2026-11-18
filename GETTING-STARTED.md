@@ -50,6 +50,8 @@ When execution finishes, inspect the diff, recorded validation results and accep
 
 Preview.7 reads GitHub/Jira tasks but does not update remote issues. You can choose Manual or Semi-auto per Work Item; Semi-auto prepares stages up to development and stops at approval gates. Auto is unavailable, and the one-button project build is planned. Follow your repository's normal push, PR and delivery process for external publication. See the [release notes](release-notes/0.1.0-preview.7.md) for boundaries, including guided repair qualification.
 
+Preview.8 preparation adds document-generation recovery and requirement coverage checks. Read its [release notes](release-notes/0.1.0-preview.8.md) before using the candidate: API-key plugin secret saving is currently blocked in desktop (CC-GF-201).
+
 ## If You Get Stuck
 
 | Symptom | Next action |

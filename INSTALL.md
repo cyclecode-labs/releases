@@ -31,6 +31,17 @@ Preview updates are manual:
 
 **Settings → Updates** lets you check for releases, choose a channel and control scheduled checks. Preview.6 enables automatic checks by default in all builds while preserving saved preferences. A green icon beside the application logo opens a newer release in your browser. Download and installation remain manual; an announcement can appear before an installer is attached.
 
+### Upgrading To Preview.8
+
+Preview.8 is a prepared release candidate; use its application packages only when attached to an official release. Create and verify a profile backup first, and keep it for rollback.
+
+- Released **preview.7** profiles apply the new migration and retain project data. **Preview.6** can upgrade directly through the retained migration chain. Do not reopen a migrated profile in an older preview.
+- **Preview.5 and older:** open once with preview.6 first, or create a new profile.
+- **Intermediate preview.8 development builds with the former V094–V096 chain:** create a new profile. Their migration history is incompatible with the release squash. Earlier unsupported development profiles remain unsupported; do not rewrite history manually.
+- **Known desktop blocker:** saving API-key plugin secret slots (`anthropic-api`, `openai-api`, `gemini-api`) returns `SECRET_STORE_UNAVAILABLE` (CC-GF-201). CLI-provider paths are separate; no real-provider rerun was performed for this candidate.
+
+See the [preview.8 release notes](release-notes/0.1.0-preview.8.md) for scope and qualification limits. Updates remain manual.
+
 ### Upgrading To Preview.7
 
 Back up and verify your profile before upgrading. Preview.6 is the supported upgrade source; preview.7 adopts its schema history and applies the new migrations while retaining project data. Keep the backup for rollback; do not reopen a migrated profile in preview.6.

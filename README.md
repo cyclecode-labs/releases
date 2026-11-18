@@ -8,9 +8,11 @@ This is the official release and feedback repository. Application source code is
 
 [Tool overview](https://vedacarrier.com/en/tools/cyclecode) · [Project space and development log](https://vedacarrier.com/en/projects/cycle-code)
 
-**Current preview: 0.1.0-preview.7.** [Download CycleCode](https://github.com/cyclecode-labs/releases/releases) · [Release notes](release-notes/0.1.0-preview.7.md) · [First project walkthrough](GETTING-STARTED.md)
+**Latest published preview: 0.1.0-preview.7.** [Download CycleCode](https://github.com/cyclecode-labs/releases/releases) · [Release notes](release-notes/0.1.0-preview.7.md) · [First project walkthrough](GETTING-STARTED.md)
 
 Experimental preview; the complete workflow is still being qualified. Check the release's attached application assets for platform availability. Windows builds may be unsigned; read the [installation notes](INSTALL.md) before running them.
+
+**Next candidate: 0.1.0-preview.8.** [Prepared release notes](release-notes/0.1.0-preview.8.md) cover document recovery, requirement coverage and known limitations, including blocked API-key plugin setup. Preparation does not mean the application assets have been published.
 
 ## From Idea To Reviewed Change
 
@@ -40,7 +42,7 @@ Follow the [first project walkthrough](GETTING-STARTED.md) for an example idea, 
 
 Project state and artifacts are stored locally. External AI providers can receive project context according to your configuration. [Data and backups](DATA-AND-PRIVACY.md) explains storage, backup contents and restore limits.
 
-Updates are installed manually. [Upgrade instructions](INSTALL.md#updates) cover backups, update checks and the preview.6 → preview.7 schema upgrade and earlier Run Profile changes.
+Updates are installed manually. [Upgrade instructions](INSTALL.md#updates) cover backups, update checks and the preview.6/preview.7 → preview.8 upgrade path and earlier Run Profile changes.
 
 The base edition is free for personal and commercial use under [LICENSE.txt](LICENSE.txt). Paid capabilities have separate terms; this README does not announce a paid feature list or promise future pricing. Read the [preview terms](PREVIEW-TERMS.txt) and [third-party notices](THIRD-PARTY-NOTICES.txt), with [license evidence](THIRD-PARTY-LICENSE-EVIDENCE.zip). Sharing official download links is welcome; republishing installers requires separate permission, subject to applicable law and third-party licenses.
 
